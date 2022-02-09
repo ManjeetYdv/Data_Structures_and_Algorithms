@@ -28,7 +28,7 @@ int peakElement(int arr[] , int size){
 int main(){
 	
     int n ;
-    cout<<"Enter number of elements in array :";
+    cout<<"Enter number of elements in array:";
     cin>>n;
     
     int arr[n];
