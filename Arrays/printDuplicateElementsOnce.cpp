@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-void unique(int arr[] , int n){
+void duplicates(int arr[] , int n){
 	
 	int max=arr[0];
 	
@@ -37,5 +37,5 @@ int main(){
 	int n= sizeof(arr)/sizeof(arr[0]);
 	
 	cout<<"All duplicants : ";
-	unique(arr ,n);
+	duplicates(arr ,n);
 }
