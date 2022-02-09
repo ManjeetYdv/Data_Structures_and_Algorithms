@@ -33,7 +33,7 @@ void unique(int arr[] , int n){
 }
 
 int main(){
-	int arr[]={2,2,2,5,6,7,7,2,2,2,2 };                   //
+	int arr[]={2,2,2,5,6,7,7,2,2,2,2 ,9 };                   
 	int n= sizeof(arr)/sizeof(arr[0]);
 	
 	cout<<"All duplicants : ";
