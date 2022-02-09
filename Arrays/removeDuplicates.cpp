@@ -37,7 +37,7 @@ int removeDuplicates(int arr[] , int n){
 }
 
 int main(){
-    int arr[]={1,2,2};
+    int arr[]={1,2,2,6,6,6,4,2};
     int n = sizeof(arr)/sizeof(arr[0]);
     int k = removeDuplicates(arr, n);
     
