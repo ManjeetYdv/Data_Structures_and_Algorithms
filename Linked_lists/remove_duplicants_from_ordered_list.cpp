@@ -49,7 +49,7 @@ void display(node* head){
 
 }
 
-void removeDuplicants(node* &head){
+void removeDuplicants(node* head){
     node* temp= head;
     
     if(head==NULL){
