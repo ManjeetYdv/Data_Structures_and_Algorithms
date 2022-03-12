@@ -113,7 +113,7 @@ node* twoSum(node* head1  , node* head2)
   }
 
   while(carry){
-      node* t = new node(carry);
+      node* t = new node(carry%10);
       carry= carry/10;
       curr->next =t;
       curr=curr->next;
