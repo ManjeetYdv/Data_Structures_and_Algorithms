@@ -54,7 +54,7 @@ void removeDuplicants(node* head){
      node *ptr1 ,*ptr2;
      ptr1= head;
 
-     while(ptr1->next!=NULL){
+     while(ptr1!=NULL and ptr1->next!=NULL){
 
           ptr2 = ptr1;
 
@@ -91,6 +91,10 @@ void removeDuplicants(node* head){
 int main(){
     
     node* head = NULL;
+    insert_l(head , 1);
+    insert_l(head , 1);
+    insert_l(head , 1);
+    insert_l(head , 3);
     insert_l(head , 1);
     insert_l(head , 2);
     insert_l(head , 1);
