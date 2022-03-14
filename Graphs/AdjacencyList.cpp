@@ -13,9 +13,9 @@ void addEdge(vector<int>adj[] , int u , int v){
 
 void printGraph(vector<int>adj[] , int V){      //V is number of node
    
-   for(int i=0 ;i<V ;i++){
+   for(int i=1 ;i<=V ;i++){
      
-     cout<<"Adjacency list of vertex "<<i<<" : "3;
+     cout<<"Adjacency list of vertex "<<i<<" : ";
      cout<<"head";
      for(auto x: adj[i]){
          cout<<" -> "<<x;
@@ -35,14 +35,14 @@ void printGraph(vector<int>adj[] , int V){      //V is number of node
 int main()
 {
 
-   //graph has zero based indexing
+
 
    int n , m;
    int u , v;
    cout<<"Enter number of nodes : ";
    cin>>n;
    
-   vector<int>adj[n];
+   vector<int>adj[n+1];
 
    cout<<"Enter number of edges : ";
    cin>>m;
