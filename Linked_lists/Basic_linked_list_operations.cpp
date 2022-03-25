@@ -106,7 +106,7 @@ void concaticate(node* &head1 , node* &head2){            //concaticate function
 
 }
 
-node* reverse(node* &head ){
+node* reverse(node* &head ){               //reverse linked list
    node* prevptr= NULL;
    node* current = head;
    node* nextptr;
