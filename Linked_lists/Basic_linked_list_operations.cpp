@@ -31,8 +31,8 @@ void insert_l(node* &head , int val){                          //insert at last
    node* toInsert = new node(val);
 
    if(head==NULL){
-       head=toInsert;
-       return ;
+       insert_s(head , val);
+        return;
    }
 
    node* temp= head;
