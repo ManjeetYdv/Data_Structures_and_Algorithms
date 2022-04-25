@@ -11,6 +11,7 @@ int firstNonRepeating(int arr[] , int n){
 			
 		}
 	}
+	
 	int temp[max+1];
 	for(int i=0 ; i<max+1 ; i++){
 		temp[i]=0;
